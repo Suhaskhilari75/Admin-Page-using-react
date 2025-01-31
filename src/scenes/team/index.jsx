@@ -12,7 +12,7 @@ import { useTheme } from "@emotion/react";
 const Team = () => {
     const theme=useTheme();
     const colors=tokens(theme.palette.mode);
-
+   console.log("teams...")
   return (
     
    <Box>
